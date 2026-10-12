@@ -5,9 +5,9 @@
 from os import environ 
 
 class Config:
-    API_ID = int(environ.get("API_ID", ""))
-    API_HASH = environ.get("API_HASH", "")
-    BOT_TOKEN = environ.get("BOT_TOKEN", "") 
+    API_ID = int(environ.get("API_ID", "18013154"))
+    API_HASH = environ.get("API_HASH", "93c6f3c43ede0082aceebfff185cf5ff")
+    BOT_TOKEN = environ.get("BOT_TOKEN", "8668760056:AAGzRndPpjzNVJ2GC-9yyxGe4CYNPCByv6o") 
     BOT_SESSION = environ.get("BOT_SESSION", "vjbot") 
     DATABASE_URI = environ.get("DATABASE_URI", "")
     DATABASE_NAME = environ.get("DATABASE_NAME", "vj-forward-bot")
